@@ -41,6 +41,9 @@ class ViewController: UIViewController {
         
         tstr = NSString(format: "%.2f", ratio) as String
         
+        chainNumberTextField.resignFirstResponder()
+        cogNumberTextField.resignFirstResponder()
+        
         gearRatioLabel.text = tstr
         gearRatioLabel.hidden = false
         
