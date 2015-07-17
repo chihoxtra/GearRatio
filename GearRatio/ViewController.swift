@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var chainNumberTextField: UITextField!
+    @IBOutlet weak var cogNumberTextField: UITextField!
+    @IBOutlet weak var gearRatioLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -18,6 +22,28 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func stringToDouble(thestr: String) -> Double {
+        var doubleNSString = NSString(string: thestr)
+        var toDouble = doubleNSString.doubleValue
+        return toDouble
+    }
+    
+
+    @IBAction func calculateButton(sender: AnyObject) {
+        var ratio: Double = 0.0, cr: Double, cg: Double, tstr:String
+        
+        cr = stringToDouble(chainNumberTextField.text)
+        cg = stringToDouble(cogNumberTextField.text)
+        
+        ratio = cr/cg
+        
+        tstr = NSString(format: "%.2f", ratio) as String
+        
+        gearRatioLabel.text = tstr
+        gearRatioLabel.hidden = false
+        
     }
 
 
