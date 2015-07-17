@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EDE75481B597D3300C266D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE75471B597D3300C266D3 /* AppDelegate.swift */; };
+		7EDE754A1B597D3300C266D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE75491B597D3300C266D3 /* ViewController.swift */; };
+		7EDE754D1B597D3300C266D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDE754B1B597D3300C266D3 /* Main.storyboard */; };
+		7EDE754F1B597D3300C266D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDE754E1B597D3300C266D3 /* Images.xcassets */; };
+		7EDE75521B597D3300C266D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EDE75501B597D3300C266D3 /* LaunchScreen.xib */; };
+		7EDE755E1B597D3300C266D3 /* GearRatioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE755D1B597D3300C266D3 /* GearRatioTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EDE75581B597D3300C266D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EDE753A1B597D3300C266D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EDE75411B597D3300C266D3;
+			remoteInfo = GearRatio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EDE75421B597D3300C266D3 /* GearRatio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GearRatio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDE75461B597D3300C266D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDE75471B597D3300C266D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EDE75491B597D3300C266D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EDE754C1B597D3300C266D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EDE754E1B597D3300C266D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7EDE75511B597D3300C266D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7EDE75571B597D3300C266D3 /* GearRatioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GearRatioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDE755C1B597D3300C266D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDE755D1B597D3300C266D3 /* GearRatioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearRatioTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EDE753F1B597D3300C266D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDE75541B597D3300C266D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EDE75391B597D3300C266D3 = {
+			isa = PBXGroup;
+			children = (
+				7EDE75441B597D3300C266D3 /* GearRatio */,
+				7EDE755A1B597D3300C266D3 /* GearRatioTests */,
+				7EDE75431B597D3300C266D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EDE75431B597D3300C266D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EDE75421B597D3300C266D3 /* GearRatio.app */,
+				7EDE75571B597D3300C266D3 /* GearRatioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EDE75441B597D3300C266D3 /* GearRatio */ = {
+			isa = PBXGroup;
+			children = (
+				7EDE75471B597D3300C266D3 /* AppDelegate.swift */,
+				7EDE75491B597D3300C266D3 /* ViewController.swift */,
+				7EDE754B1B597D3300C266D3 /* Main.storyboard */,
+				7EDE754E1B597D3300C266D3 /* Images.xcassets */,
+				7EDE75501B597D3300C266D3 /* LaunchScreen.xib */,
+				7EDE75451B597D3300C266D3 /* Supporting Files */,
+			);
+			path = GearRatio;
+			sourceTree = "<group>";
+		};
+		7EDE75451B597D3300C266D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EDE75461B597D3300C266D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EDE755A1B597D3300C266D3 /* GearRatioTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EDE755D1B597D3300C266D3 /* GearRatioTests.swift */,
+				7EDE755B1B597D3300C266D3 /* Supporting Files */,
+			);
+			path = GearRatioTests;
+			sourceTree = "<group>";
+		};
+		7EDE755B1B597D3300C266D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EDE755C1B597D3300C266D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EDE75411B597D3300C266D3 /* GearRatio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDE75611B597D3300C266D3 /* Build configuration list for PBXNativeTarget "GearRatio" */;
+			buildPhases = (
+				7EDE753E1B597D3300C266D3 /* Sources */,
+				7EDE753F1B597D3300C266D3 /* Frameworks */,
+				7EDE75401B597D3300C266D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GearRatio;
+			productName = GearRatio;
+			productReference = 7EDE75421B597D3300C266D3 /* GearRatio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EDE75561B597D3300C266D3 /* GearRatioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDE75641B597D3300C266D3 /* Build configuration list for PBXNativeTarget "GearRatioTests" */;
+			buildPhases = (
+				7EDE75531B597D3300C266D3 /* Sources */,
+				7EDE75541B597D3300C266D3 /* Frameworks */,
+				7EDE75551B597D3300C266D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EDE75591B597D3300C266D3 /* PBXTargetDependency */,
+			);
+			name = GearRatioTests;
+			productName = GearRatioTests;
+			productReference = 7EDE75571B597D3300C266D3 /* GearRatioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EDE753A1B597D3300C266D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Samuel Pun";
+				TargetAttributes = {
+					7EDE75411B597D3300C266D3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7EDE75561B597D3300C266D3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7EDE75411B597D3300C266D3;
+					};
+				};
+			};
+			buildConfigurationList = 7EDE753D1B597D3300C266D3 /* Build configuration list for PBXProject "GearRatio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EDE75391B597D3300C266D3;
+			productRefGroup = 7EDE75431B597D3300C266D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EDE75411B597D3300C266D3 /* GearRatio */,
+				7EDE75561B597D3300C266D3 /* GearRatioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EDE75401B597D3300C266D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDE754D1B597D3300C266D3 /* Main.storyboard in Resources */,
+				7EDE75521B597D3300C266D3 /* LaunchScreen.xib in Resources */,
+				7EDE754F1B597D3300C266D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDE75551B597D3300C266D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EDE753E1B597D3300C266D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDE754A1B597D3300C266D3 /* ViewController.swift in Sources */,
+				7EDE75481B597D3300C266D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDE75531B597D3300C266D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDE755E1B597D3300C266D3 /* GearRatioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EDE75591B597D3300C266D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EDE75411B597D3300C266D3 /* GearRatio */;
+			targetProxy = 7EDE75581B597D3300C266D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EDE754B1B597D3300C266D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDE754C1B597D3300C266D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EDE75501B597D3300C266D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDE75511B597D3300C266D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EDE755F1B597D3300C266D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EDE75601B597D3300C266D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EDE75621B597D3300C266D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GearRatio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EDE75631B597D3300C266D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GearRatio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7EDE75651B597D3300C266D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GearRatioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GearRatio.app/GearRatio";
+			};
+			name = Debug;
+		};
+		7EDE75661B597D3300C266D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GearRatioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GearRatio.app/GearRatio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EDE753D1B597D3300C266D3 /* Build configuration list for PBXProject "GearRatio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDE755F1B597D3300C266D3 /* Debug */,
+				7EDE75601B597D3300C266D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDE75611B597D3300C266D3 /* Build configuration list for PBXNativeTarget "GearRatio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDE75621B597D3300C266D3 /* Debug */,
+				7EDE75631B597D3300C266D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EDE75641B597D3300C266D3 /* Build configuration list for PBXNativeTarget "GearRatioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDE75651B597D3300C266D3 /* Debug */,
+				7EDE75661B597D3300C266D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EDE753A1B597D3300C266D3 /* Project object */;
+}
