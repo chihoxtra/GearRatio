@@ -21,7 +21,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="109" y="121" width="183" height="30"/>
+                                    <rect key="frame" x="16" y="42" width="183" height="30"/>
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Cog Gear" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X37-Ph-ppA">
@@ -29,7 +29,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="109" y="182" width="183" height="30"/>
+                                    <rect key="frame" x="16" y="90" width="183" height="30"/>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGV-ec-WmY">
@@ -40,19 +40,28 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="143" y="237" width="122" height="30"/>
+                                    <rect key="frame" x="215" y="90" width="85" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="calculateButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zST-hi-mDh"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLI-xi-VZ4">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GearRatio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLI-xi-VZ4">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="69" y="344" width="245" height="55"/>
+                                    <rect key="frame" x="16" y="128" width="245" height="42"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SkidPatches" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75U-TU-Oj7">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="171" width="299" height="44"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -62,6 +71,7 @@
                                 <exclude reference="X37-Ph-ppA"/>
                                 <exclude reference="eGV-ec-WmY"/>
                                 <exclude reference="gLI-xi-VZ4"/>
+                                <exclude reference="75U-TU-Oj7"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -69,6 +79,7 @@
                                 <include reference="X37-Ph-ppA"/>
                                 <include reference="eGV-ec-WmY"/>
                                 <include reference="gLI-xi-VZ4"/>
+                                <include reference="75U-TU-Oj7"/>
                             </mask>
                         </variation>
                     </view>
@@ -76,6 +87,7 @@
                         <outlet property="chainNumberTextField" destination="gXO-NL-t6e" id="hmw-TL-nRU"/>
                         <outlet property="cogNumberTextField" destination="X37-Ph-ppA" id="KwA-RW-9RW"/>
                         <outlet property="gearRatioLabel" destination="gLI-xi-VZ4" id="ilU-hV-23Q"/>
+                        <outlet property="skidPatchesLabel" destination="75U-TU-Oj7" id="lS5-D0-3Gd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
